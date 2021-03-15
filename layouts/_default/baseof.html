@@ -23,77 +23,66 @@
 </head>
 
 <body>
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand text-center m-md-3">
-                    <!-- Logo Image -->
-                    <img src="{{`/logo.svg` | relURL }}" width="80" alt="Logo">
-                </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tour</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div class="container-fluid">
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand text-center">
+                        <!-- Logo Image -->
+                        <img src="{{`/White.svg` | relURL }}" width="80" alt="Logo">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tour</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
 
-    <main>
+    <div class="container-fluid pt-md-3">
+        <main class="bg-light">
             {{block "body" .}}
             {{.Page.Content}}
             {{end}}
+        </main>
+    </div>
 
-    </main>
-
-    <footer class="container py-5">
-        <div class="row">
-            <div class="col-12 col-md">
-                Jianjin<small class="d-block mb-3 text-muted">&copy; 2021</small>
+    <div class="container-fluid pt-md-5">
+        <footer class="footer bg-white">
+            <div class="row">
+                <div class="col-12 col-md">
+                    Jianjin<small class="d-block mb-3 text-muted">&copy; 2021</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h8>Features</h8>
+                </div>
+                <div class="col-6 col-md">
+                    <h8>Resources</h8>
+                </div>
+                <div class="col-6 col-md">
+                    <h8>Things</h8>
+                </div>
+                <div class="col-6 col-md">
+                    <h8>About</h8>
+                    <ul class="list-unstyled">
+                        <a class="d-flex align-items-center" href="{{ relref . `/company` }}">Company</a>
+                    </ul>
+                </div>
             </div>
-            <div class="col-6 col-md">
-                <h5>Features</h5>
-                <ul class="list-unstyled text-small">
-                    <li>Corkingness</li>
-                    <li>Splendidness</li>
-                    <li>Excellence</li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li>Stuff</li>
-                    <li>More stuff</li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Things</h5>
-                <ul class="list-unstyled text-small">
-                    <li>Thingies</li>
-                    <li>Thingitudes</li>
-                    <li>Thingmajigs</li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="nav-link" href="{{ relref . `/company` }}">Company</a></li>
-                    <li>Privacy</li>
-                    <li>Terms</li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
