@@ -27,20 +27,17 @@
         <header class="sticky-top">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container-fluid">
-                    <a href="#" class="navbar-brand text-center">
-                        <!-- Logo Image -->
+                    <a href="{{ relref . `/` }}" class="navbar-brand text-center">
                         <img src="{{`/White.svg` | relURL }}" width="80" alt="Logo">
                     </a>
                     <ul class="navbar-nav">
+                        {{ $currentPage := . -}}
+                        {{ range .Site.Menus.main -}}
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Tour</a>
+                            {{ $active := cond ($currentPage.IsMenuCurrent "main" .) " active" "" -}}
+                            <a class="nav-link{{$active}}" href="{{.URL}}">{{.Name}}</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
+                        {{ end -}}
                     </ul>
                 </div>
             </nav>
@@ -62,7 +59,7 @@
                     Jianjin<small class="d-block mb-3 text-muted">&copy; 2021</small>
                 </div>
                 <div class="col-6 col-md">
-                    <h8>Features</h8>
+                    <h5>Features</h5>
                 </div>
                 <div class="col-6 col-md">
                     <h8>Resources</h8>
