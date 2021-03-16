@@ -15,30 +15,28 @@
 
 <body>
     <header class="container bg-primary">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
-                <a href="{{ relref . `/` }}" class="navbar-brand text-center">
-                    <img src="{{`/White.svg` | relURL }}" height="40px" alt="Logo">
-                </a>
-                <ul class="navbar-nav">
-                    {{ $currentPage := . -}}
-                    {{ range .Site.Menus.main -}}
-                    <li class="nav-item">
-                        {{ $active := cond ($currentPage.IsMenuCurrent "main" .) " active" "" -}}
-                        <a class="nav-link{{$active}}" href="{{.URL}}">{{.Name}}</a>
-                    </li>
-                    {{ end -}}
-                </ul>
-            </div>
+        <nav class="navbar navbar-expand-lg navbar-dark d-flex">
+            <a href="{{ relref . `/` }}" class="navbar-brand text-center me-auto">
+                <img src="{{`/White.svg` | relURL }}" height="40px" alt="Logo">
+            </a>
+            <ul class="navbar-nav">
+                {{ $currentPage := . -}}
+                {{ range .Site.Menus.main -}}
+                <li class="nav-item">
+                    {{ $active := cond ($currentPage.IsMenuCurrent "main" .) " active" "" -}}
+                    <a class="nav-link{{$active}}" href="{{.URL}}">{{.Name}}</a>
+                </li>
+                {{ end -}}
+            </ul>
         </nav>
     </header>
 
-    <div class="container pt-md-3 py-3">
-        <main class="bg-light">
-            {{block "body" .}}
+    <div class="container">
+        {{block "body" .}}
+        <div class="py-3">
             {{.Page.Content}}
             {{end}}
-        </main>
+        </div>
     </div>
 
     <footer class="py-4 page-footer">
