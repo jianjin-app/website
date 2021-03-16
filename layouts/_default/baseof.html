@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <header class="sticky-top">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container-fluid">
@@ -35,7 +35,7 @@
         </header>
     </div>
 
-    <div class="container-fluid pt-md-3">
+    <div class="container pt-md-3">
         <main class="bg-light">
             {{block "body" .}}
             {{.Page.Content}}
@@ -43,29 +43,9 @@
         </main>
     </div>
 
-    <div class="container-fluid pt-md-5">
-        <footer class="footer bg-dark text-white">
-            <div class="row">
-                <div class="col-12 col-md">
-                    Jianjin<small class="d-block mb-3 text-muted">&copy; 2021</small>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Features</h5>
-                </div>
-                <div class="col-6 col-md">
-                    <h8>Resources</h8>
-                </div>
-                <div class="col-6 col-md">
-                    <h8>Things</h8>
-                </div>
-                <div class="col-6 col-md">
-                    <h8>About</h8>
-                    <ul class="list-unstyled">
-                        <a class="d-flex align-items-center" href="{{ relref . `/company` }}">Company</a>
-                    </ul>
-                </div>
-            </div>
-    </div>
+    <footer class="container py-4 page-footer bg-dark text-white">
+        Copyright &copy; Jianjin Software, 2021; All rights reserved.
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
