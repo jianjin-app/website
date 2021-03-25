@@ -4,3 +4,4 @@ menu:
   main:
     weight: 10
 ---
+## Photo Gallery
