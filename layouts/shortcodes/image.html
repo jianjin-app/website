@@ -1,0 +1,6 @@
+{{- $path := .Get "src" }}
+{{- $image := resources.Get $path }}
+{{- if not $image }}
+    {{- errorf "Could not load image from %s" $path }}
+{{- end }}
+{{- partial "image" (dict "src" $image.RelPermalink "alt" (default (.Get `caption`) (.Get "alt")) "caption" (.Get "caption") "page" $.Page) }}
