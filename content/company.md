@@ -2,7 +2,7 @@
 title: "Company"
 menu:
   main:
-    weight: 20
+    weight: 30
 ---
 
 ## Company

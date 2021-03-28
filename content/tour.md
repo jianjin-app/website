@@ -2,7 +2,7 @@
 title: "Tour"
 menu:
   main:
-    weight: 10
+    weight: 20
 ---
 ## Photo Gallery
 
