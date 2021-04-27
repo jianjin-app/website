@@ -18,4 +18,9 @@ EC1V 2NX
 United Kingdom
 
 ## Contact
+
 inquiries@jianjin.app
+
+## Privacy
+
+To read our privacy notice, [click here]({{< relref "/privacy-notice" >}}).
