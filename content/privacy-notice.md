@@ -20,7 +20,7 @@ Last update: 27th April 2021
 
 We currently collect and process the following information:
 
-* Your name and contact information, such as your email address
+* Your contact and billing information, such as your email address and billing address in order to open account and process payments.
 * The notes and other data you enter into Jianjin
 
 ## How we get the personal information and why we have it
@@ -31,18 +31,19 @@ for one of the following reasons:
 * You provided it when you created your account
 * You entered it into the application
 
-<!--[If applicable] We also receive personal information indirectly, from the following sources in the following scenarios:
-[Add the source of any data collected indirectly and why you collected the personal information]
-TODO: Add information captured in log files.
-TODO: Add information about Auth0 and other third party providers if necessary (link to their privacy policy?)
--->
+We also receive personal information indirectly, from the following sources in the following scenarios:
+* From third party authentication provider: we will have access to certain information from its log such as your IP address and device information
+ (device/browser type and versioin, operating system type).
+  Please see the thrid party privacy policy from here: https://auth0.com/privacy
+
 
 We use the information that you have given us in order to:
 
-* Contact you for the purposes of billing, or provide you with other important
-  information about your account
-* Store your notes and other information and make them available to you on any
-  device you choose to log in on
+* Performing our Services: Store your notes and other information and make them available to you on any
+  device you choose to log in on.
+
+* Maintaining our Service: To provice troubleshooting and customer support.
+  The support team may require the access to your information such as account email address or billing information. 
 
 We do not share any of this information with third parties, except as required
 by law.
@@ -80,8 +81,6 @@ Under data protection law, you have rights including:
   complete information you think is incomplete.
 * Your right to erasure - You have the right to ask us to erase your personal
   information in certain circumstances.
-* Your right to restriction of processing - You have the right to ask us to
-  restrict the processing of your personal information in certain circumstances.
 * Your right to object to processing - You have the the right to object to the
   processing of your personal information in certain circumstances.
 * Your right to data portability - You have the right to ask that we transfer
@@ -91,7 +90,17 @@ Under data protection law, you have rights including:
 You are not required to pay any charge for exercising your rights. If you make a
 request, we have one month to respond to you.
 
-Please contact us at [insert email address, phone number and or postal address]
+Please contact us at:\
+Email: inquiries@jianjin.app\
+or
+Post Address: \
+Jianjin Limited\
+Kemp House,\
+160 City Road,\
+London,\
+EC1V 2NX\
+United Kingdom
+
 if you wish to make a request.
 
 ## How to complain
