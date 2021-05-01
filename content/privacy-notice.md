@@ -14,16 +14,18 @@ United Kingdom
 
 Email: inquiries@jianjin.app
 
-Last update: 27th April 2021
+Last update: 30th April 2021
 
 ## The type of personal information we collect
 
 We currently collect and process the following information:
 
-* Your contact and billing information, such as your email address and billing address in order to open account and process payments.
-* The notes and other data you enter into Jianjin
+* Your contact and billing information, such as your email address and billing
+  address.
+* The notes and other data you enter into Jianjin.
+* Information about how you use the service (see examples below).
 
-## How we get the personal information and why we have it
+## How we get your personal information and why we have it
 
 Most of the personal information we process is provided to us directly by you
 for one of the following reasons:
@@ -31,22 +33,31 @@ for one of the following reasons:
 * You provided it when you created your account
 * You entered it into the application
 
-We also receive personal information indirectly, from the following sources in the following scenarios:
-* From third party authentication provider: we will have access to certain information from its log such as your IP address and device information
- (device/browser type and versioin, operating system type).
-  Please see the thrid party privacy policy from here: https://auth0.com/privacy
+We also receive personal information indirectly, from the following sources in
+the following scenarios:
 
+* From our server logs, we obtain information about your usage of Jianjin, such
+  as the dates and times you interact with the service, what types of devices or
+  browsers you use, and errors you encounter which we may need to address.
+* From our third-party authentication provider, we have access to certain
+  information from its logs, such as your IP address and device information
+  (device/browser type and version, operating system type). For more
+  information, please see the provider's privacy policy here:
+  https://auth0.com/privacy
 
 We use the information that you have given us in order to:
 
-* Performing our Services: Store your notes and other information and make them available to you on any
-  device you choose to log in on.
+* Provide our services, for example to store your notes and other information
+  and make them available to you on any device you choose to log in on.
+* Maintain, administer and improve our services, for example:
+  * To contact you about important changes to your account
+  * To bill you for your usage of the service, and collect payments
+  * To provide troubleshooting and customer support
+  * To fix bugs and other problems
+  * To make decisions about future changes to the service
 
-* Maintaining our Service: To provice troubleshooting and customer support.
-  The support team may require the access to your information such as account email address or billing information. 
-
-We do not share any of this information with third parties, except as required
-by law.
+We do not share any personal information we hold with third parties, except as
+required by law.
 
 Under the General Data Protection Regulation (GDPR), the lawful bases we rely on
 for processing this information are:
@@ -61,8 +72,8 @@ Your information is securely stored on servers in the United Kingdom.
 
 The content you upload to Jianjin is stored until you ask us to delete it.
 
-Other personal and billing information is held until your account is closed,
-with no payments outstanding.
+Other personal and billing information is held until your account is closed with
+no payments outstanding.
 
 For any of your information, once it is deleted, we remove it from our live
 systems, but it may be retained in backups for up to one year. This is necessary
