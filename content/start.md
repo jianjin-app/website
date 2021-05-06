@@ -6,7 +6,7 @@ title: "Get Started"
 https://jianjin.app
 
 ## IOS
-Coming soon
+Search for JianJin to get started
 
 ## Android
 Coming soon
