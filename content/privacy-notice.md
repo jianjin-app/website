@@ -1,6 +1,6 @@
 ---
 title: "Jianjin Privacy Notice"
-date: 2021-04-27T20:46:10+01:00
+date: 2021-09-03T17:09:10+01:00
 ---
 
 ## Our contact details
@@ -14,7 +14,7 @@ United Kingdom
 
 Email: inquiries@jianjin.app
 
-Last update: 30th April 2021
+Last update: 3rd September 2021
 
 ## The type of personal information we collect
 
@@ -50,6 +50,7 @@ We use the information that you have given us in order to:
 * Provide our services, for example to store your notes and other information
   and make them available to you on any device you choose to log in on.
 * Maintain, administer and improve our services, for example:
+  * To send you the newsletters about our products and services
   * To contact you about important changes to your account
   * To bill you for your usage of the service, and collect payments
   * To provide troubleshooting and customer support
