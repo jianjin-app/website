@@ -1,6 +1,6 @@
 ---
-title: "Jianjin Privacy Notice"
-date: 2021-09-03T17:09:10+01:00
+title: "StepWise Chinese Privacy Notice"
+date: 2023-06-02T14:09:10+08:00
 ---
 
 ## Our contact details
@@ -14,7 +14,7 @@ United Kingdom
 
 Email: inquiries@jianjin.app
 
-Last update: 3rd September 2021
+Last update: 2nd June 2023
 
 ## The type of personal information we collect
 
@@ -22,7 +22,7 @@ We currently collect and process the following information:
 
 * Your contact and billing information, such as your email address and billing
   address.
-* The notes and other data you enter into Jianjin.
+* The notes and other data you enter into StepWise Chinese.
 * Information about how you use the service (see examples below).
 
 ## How we get your personal information and why we have it
@@ -36,7 +36,7 @@ for one of the following reasons:
 We also receive personal information indirectly, from the following sources in
 the following scenarios:
 
-* From our server logs, we obtain information about your usage of Jianjin, such
+* From our server logs, we obtain information about your usage of StepWise Chinese, such
   as the dates and times you interact with the service, what types of devices or
   browsers you use, and errors you encounter which we may need to address.
 * From our third-party authentication provider, we have access to certain
@@ -71,7 +71,7 @@ for processing this information are:
 
 Your information is securely stored on servers in the United Kingdom.
 
-The content you upload to Jianjin is stored until you ask us to delete it.
+The content you upload to StepWise Chinese is stored until you ask us to delete it.
 
 Other personal and billing information is held until your account is closed with
 no payments outstanding.

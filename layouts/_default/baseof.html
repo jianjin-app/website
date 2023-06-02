@@ -7,7 +7,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>Jianjin Software</title>
+    <title>StepWise Chinese</title>
 
     {{ $main_css := resources.Get "main.css" | minify -}}
     <link rel="stylesheet" href="{{$main_css.RelPermalink}}">
@@ -17,7 +17,7 @@
     <header class="container bg-primary">
         <nav class="navbar navbar-expand-lg navbar-dark d-flex">
             <a href="{{ relref . `/` }}" class="navbar-brand text-center me-auto">
-                <img src="{{`/White.svg` | relURL }}" height="40px" alt="Logo">
+                <img src="{{`/icon.png` | relURL }}" height="60px" alt="Logo">
             </a>
             <ul class="navbar-nav">
                 {{ $currentPage := . -}}

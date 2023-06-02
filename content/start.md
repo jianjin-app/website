@@ -3,10 +3,16 @@ title: "Get Started"
 ---
 
 ## Web
-https://jianjin.app
+https://learnstepwise.com
 
 ## IOS
-Search for JianJin to get started
+Scan the QR code below or search for "StepWise Chinese" in App Store to get started:
+{{< image-grid >}}
+{{< image-row >}}
+  {{< image-col src="/images/appstore_qr.png" caption="App Store QR Code" >}}
+{{< /image-row >}}
+{{< /image-grid >}}
+
 
 ## Android
 Coming soon

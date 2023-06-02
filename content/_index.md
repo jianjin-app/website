@@ -1,5 +1,5 @@
 ---
-title: "Jianjin Software"
+title: "StepWise Chinese"
 menu:
   main:
     name: "Home"
